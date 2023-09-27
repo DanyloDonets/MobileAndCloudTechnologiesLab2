@@ -40,9 +40,11 @@ public class lb2 {
 		shlLab.setText("Lab2");
 		
 		solution1Text = new Text(shlLab, SWT.BORDER);
+		solution1Text.setEditable(false);
 		solution1Text.setBounds(92, 122, 76, 21);
 		
 		solution2Text = new Text(shlLab, SWT.BORDER);
+		solution2Text.setEditable(false);
 		solution2Text.setBounds(92, 149, 76, 21);
 		
 		Label labelX = new Label(shlLab, SWT.NONE);
@@ -50,6 +52,7 @@ public class lb2 {
 		labelX.setText("X");
 		
 		solution3Text = new Text(shlLab, SWT.BORDER);
+		solution3Text.setEditable(false);
 		solution3Text.setBounds(92, 178, 76, 21);
 		
 		Label labelY = new Label(shlLab, SWT.NONE);
